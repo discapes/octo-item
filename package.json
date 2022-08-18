@@ -1,0 +1,25 @@
+{
+  "name": "pplan",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env DEV=1 wrangler pages dev -k pplan -- vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@fontsource/fira-mono": "^4.5.9",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "autoprefixer": "^10.4.8",
+    "concurrently": "^7.3.0",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.4",
+    "svelte": "^3.49.0",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.7",
+    "wrangler": "^2.0.26"
+  }
+}
